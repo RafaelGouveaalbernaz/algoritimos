@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="miguel.selvati"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 02:35:21 "/>
+        <attribute name="created" value="bWlndWVsLnNlbHZhdGk7TlQyMzsyMDI0LTAzLTA0OyIwMjowMDozNyAiOzI4OTQ="/>
+        <attribute name="edited" value="bWlndWVsLnNlbHZhdGk7TlQyMzsyMDI0LTAzLTA0OyIwMjoyMzozMyAiOzE7MzAwMw=="/>
+        <attribute name="edited" value="cmFmYWVsLmFsYmVybmF6O05UMjQ7MjAyNC0wMy0wNDsiMDI6MzU6MjEgIjsxOzMwNjc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cl, fh, i" type="Integer" array="False" size=""/>
+            <output expression="&quot;1.Fahr para Celsius&quot;" newline="True"/>
+            <output expression="&quot;2.Celsius para Fahr&quot;" newline="True"/>
+            <input variable="i"/>
+            <if expression="i==2">
+                <then>
+                    <input variable="cl"/>
+                    <assign variable="fh" expression="(9*cl+32)/5"/>
+                    <output expression="fh" newline="True"/>
+                </then>
+                <else>
+                    <input variable="fh"/>
+                    <assign variable="cl" expression="5*(fh-32)/9"/>
+                    <output expression="cl" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

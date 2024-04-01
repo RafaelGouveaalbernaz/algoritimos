@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="rafael.albernaz"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-29 04:32:15 "/>
+        <attribute name="created" value="cmFmYWVsLmFsYmVybmF6O0RFU0tUT1AtQzlMQUY4SjsyMDI0LTAxLTI5OyIwNDoxOTo0OSAiOzM3NjI="/>
+        <attribute name="edited" value="cmFmYWVsLmFsYmVybmF6O0RFU0tUT1AtQzlMQUY4SjsyMDI0LTAxLTI5OyIwNDozMjoxNSAiOzE7Mzg1OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ano, mes, dia, data" type="Integer" array="False" size=""/>
+            <declare name="nome" type="String" array="False" size=""/>
+            <input variable="nome"/>
+            <input variable="dia"/>
+            <input variable="mes"/>
+            <input variable="ano"/>
+            <assign variable="data" expression="2024-ano"/>
+            <output expression="nome" newline="True"/>
+            <output expression="data" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
